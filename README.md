@@ -45,7 +45,7 @@ Instale as dependências:
 pip install -r requirements.txt
 ```
 
-Configure as variáveis de ambiente exigidas pelo código e execute:
+Configure `BOT_TOKEN` e `DATABASE_URL` de forma privada, consultando o [modelo `.env.example`](.env.example). Em seguida, execute:
 
 ```bash
 python bot.py
@@ -59,6 +59,8 @@ python bot.py
 - validação de dados;
 - desenvolvimento orientado a eventos;
 - documentação e manutenção de software.
+
+> **Escopo:** projeto educacional de automação e persistência. Não é apresentado como serviço auditado ou pronto para uso comercial. Não versionar tokens, URLs de banco com credenciais ou registros privados.
 
 ## Autor
 
